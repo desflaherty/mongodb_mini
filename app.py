@@ -86,11 +86,7 @@ def update_category(category_id):
         {'category_name': request.form.get('category_name')})
     return redirect(url_for('get_categories'))
 
-
-
-
-
-    
+ 
     
 @app.route('/insert_category', methods=['POST'])
 def insert_category():
